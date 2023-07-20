@@ -13,6 +13,8 @@
 		3DB34CFE2A64C0E100B2B3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB34CFC2A64C0E100B2B3DE /* Main.storyboard */; };
 		3DB34D002A64C0E300B2B3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB34CFF2A64C0E300B2B3DE /* Assets.xcassets */; };
 		3DB34D032A64C0E300B2B3DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB34D012A64C0E300B2B3DE /* LaunchScreen.storyboard */; };
+		3DB34D0B2A68C2DC00B2B3DE /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DB34D0A2A68C2DC00B2B3DE /* HomeTableViewHeader.xib */; };
+		3DB34D0D2A68C65500B2B3DE /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB34D0C2A68C65500B2B3DE /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3DB34CFF2A64C0E300B2B3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB34D022A64C0E300B2B3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DB34D042A64C0E300B2B3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB34D0A2A68C2DC00B2B3DE /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		3DB34D0C2A68C65500B2B3DE /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3DB34CFF2A64C0E300B2B3DE /* Assets.xcassets */,
 				3DB34D012A64C0E300B2B3DE /* LaunchScreen.storyboard */,
 				3DB34D042A64C0E300B2B3DE /* Info.plist */,
+				3DB34D0A2A68C2DC00B2B3DE /* HomeTableViewHeader.xib */,
+				3DB34D0C2A68C65500B2B3DE /* HomeTableViewHeader.swift */,
 			);
 			path = "swift-tutorial-layout";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB34D032A64C0E300B2B3DE /* LaunchScreen.storyboard in Resources */,
+				3DB34D0B2A68C2DC00B2B3DE /* HomeTableViewHeader.xib in Resources */,
 				3DB34D002A64C0E300B2B3DE /* Assets.xcassets in Resources */,
 				3DB34CFE2A64C0E100B2B3DE /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB34CFB2A64C0E100B2B3DE /* ViewController.swift in Sources */,
+				3DB34D0D2A68C65500B2B3DE /* HomeTableViewHeader.swift in Sources */,
 				3DB34CF72A64C0E100B2B3DE /* AppDelegate.swift in Sources */,
 				3DB34CF92A64C0E100B2B3DE /* SceneDelegate.swift in Sources */,
 			);
