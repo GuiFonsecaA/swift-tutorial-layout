@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="T2s-xM-ukN">
-                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="T2s-xM-ukN">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="T2s-xM-ukN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="23a-dz-FhC"/>
+                            <constraint firstAttribute="bottom" secondItem="T2s-xM-ukN" secondAttribute="bottom" id="DaQ-LH-JUR"/>
+                            <constraint firstItem="T2s-xM-ukN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hb5-RO-bW6"/>
+                            <constraint firstItem="T2s-xM-ukN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qmt-yG-sF3"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="ViagensTableView" destination="T2s-xM-ukN" id="roe-q9-HSx"/>
@@ -31,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.1679389312977" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="293.89312977099235" y="-1.4084507042253522"/>
         </scene>
     </scenes>
     <resources>

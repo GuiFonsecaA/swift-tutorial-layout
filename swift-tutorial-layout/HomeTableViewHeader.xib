@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,18 +14,72 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-Fj-fut">
-                    <rect key="frame" x="42" y="41" width="144" height="33"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9r-KJ-5tN" userLabel="Header View">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-Fj-fut">
+                            <rect key="frame" x="31" y="46" width="144" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L6m-8q-b6B" userLabel="Banner 2 View">
+                            <rect key="frame" x="21" y="147" width="351" height="130"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V60-lF-2tJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
+                                    <color key="backgroundColor" red="0.31764705879999999" green="0.70196078429999997" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-gi-klY">
+                                    <rect key="frame" x="175" y="0.0" width="176" height="130"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="R1z-gi-klY" secondAttribute="trailing" id="FFz-t5-oI3"/>
+                                <constraint firstAttribute="height" constant="130" id="HQ0-0L-7xo"/>
+                                <constraint firstAttribute="bottom" secondItem="V60-lF-2tJ" secondAttribute="bottom" id="ISU-hV-IAW"/>
+                                <constraint firstItem="V60-lF-2tJ" firstAttribute="top" secondItem="L6m-8q-b6B" secondAttribute="top" id="IpZ-e7-tEL"/>
+                                <constraint firstItem="R1z-gi-klY" firstAttribute="top" secondItem="L6m-8q-b6B" secondAttribute="top" id="KIY-4n-lDA"/>
+                                <constraint firstItem="V60-lF-2tJ" firstAttribute="leading" secondItem="L6m-8q-b6B" secondAttribute="leading" id="QpH-s0-vii"/>
+                                <constraint firstAttribute="bottom" secondItem="R1z-gi-klY" secondAttribute="bottom" id="hh5-Zg-r3a"/>
+                                <constraint firstItem="V60-lF-2tJ" firstAttribute="width" secondItem="L6m-8q-b6B" secondAttribute="width" multiplier="0.569801" id="tlE-gJ-A8X"/>
+                                <constraint firstItem="R1z-gi-klY" firstAttribute="width" secondItem="L6m-8q-b6B" secondAttribute="width" multiplier="0.501425" id="yEe-bB-JJT"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.11764705882352941" green="0.074509803921568626" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="LNT-b3-0GA"/>
+                        <constraint firstAttribute="bottom" secondItem="L6m-8q-b6B" secondAttribute="bottom" constant="-27" id="amB-6U-USA"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" red="0.11764705882352941" green="0.23137254901960785" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="L6m-8q-b6B" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="21" id="2c9-Zi-q7E"/>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="5a0-zX-DyF"/>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BDO-HA-qkv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="L6m-8q-b6B" secondAttribute="trailing" constant="21" id="Iky-nU-Db5"/>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UeK-0c-Tua"/>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="VL8-d0-MJ2"/>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hcF-bp-cGw"/>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tED-L0-C6a"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="140" y="20"/>
+            <connections>
+                <outlet property="bannerImageView" destination="R1z-gi-klY" id="MHW-zD-YWw"/>
+                <outlet property="headerView" destination="a9r-KJ-5tN" id="2cj-Gy-T03"/>
+                <outlet property="tituloLabel" destination="Kke-Fj-fut" id="HNn-y9-GBT"/>
+            </connections>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
