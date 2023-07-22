@@ -29,23 +29,45 @@
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V60-lF-2tJ">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aproveite o verão, com:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRV-xE-XMg">
+                                            <rect key="frame" x="16" y="13.999999999999996" width="168" height="61.666666666666657"/>
+                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ferias" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-gi-klY">
+                                            <rect key="frame" x="175" y="0.0" width="176" height="130"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ofertas exclusivas, somente no nosso app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2b-c3-dcv">
+                                            <rect key="frame" x="16" y="82.333333333333343" width="143" height="33.666666666666657"/>
+                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" red="0.31764705879999999" green="0.70196078429999997" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="R1z-gi-klY" firstAttribute="width" secondItem="V60-lF-2tJ" secondAttribute="width" multiplier="0.501425" constant="75.715099715099711" id="0zf-s4-oHC"/>
+                                        <constraint firstAttribute="bottom" secondItem="a2b-c3-dcv" secondAttribute="bottom" constant="14" id="ALp-VY-krq"/>
+                                        <constraint firstItem="iRV-xE-XMg" firstAttribute="leading" secondItem="V60-lF-2tJ" secondAttribute="leading" constant="16" id="CAs-FY-Suh"/>
+                                        <constraint firstItem="iRV-xE-XMg" firstAttribute="top" secondItem="V60-lF-2tJ" secondAttribute="top" constant="14" id="PKK-3V-8KX"/>
+                                        <constraint firstItem="a2b-c3-dcv" firstAttribute="leading" secondItem="V60-lF-2tJ" secondAttribute="leading" constant="16" id="ULG-n7-ksV"/>
+                                        <constraint firstAttribute="trailing" secondItem="R1z-gi-klY" secondAttribute="trailing" constant="-151" id="YNi-UT-Cw7"/>
+                                        <constraint firstAttribute="bottom" secondItem="R1z-gi-klY" secondAttribute="bottom" id="aW4-5U-fkN"/>
+                                        <constraint firstItem="R1z-gi-klY" firstAttribute="leading" secondItem="a2b-c3-dcv" secondAttribute="trailing" constant="16" id="gZK-nT-btb"/>
+                                        <constraint firstItem="R1z-gi-klY" firstAttribute="top" secondItem="V60-lF-2tJ" secondAttribute="top" id="lb2-oU-jWc"/>
+                                        <constraint firstAttribute="trailing" secondItem="iRV-xE-XMg" secondAttribute="trailing" constant="16" id="zLv-BS-yRI"/>
+                                    </constraints>
                                 </view>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-gi-klY">
-                                    <rect key="frame" x="175" y="0.0" width="176" height="130"/>
-                                </imageView>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="R1z-gi-klY" secondAttribute="trailing" id="FFz-t5-oI3"/>
                                 <constraint firstAttribute="height" constant="130" id="HQ0-0L-7xo"/>
                                 <constraint firstAttribute="bottom" secondItem="V60-lF-2tJ" secondAttribute="bottom" id="ISU-hV-IAW"/>
                                 <constraint firstItem="V60-lF-2tJ" firstAttribute="top" secondItem="L6m-8q-b6B" secondAttribute="top" id="IpZ-e7-tEL"/>
-                                <constraint firstItem="R1z-gi-klY" firstAttribute="top" secondItem="L6m-8q-b6B" secondAttribute="top" id="KIY-4n-lDA"/>
                                 <constraint firstItem="V60-lF-2tJ" firstAttribute="leading" secondItem="L6m-8q-b6B" secondAttribute="leading" id="QpH-s0-vii"/>
-                                <constraint firstAttribute="bottom" secondItem="R1z-gi-klY" secondAttribute="bottom" id="hh5-Zg-r3a"/>
                                 <constraint firstItem="V60-lF-2tJ" firstAttribute="width" secondItem="L6m-8q-b6B" secondAttribute="width" multiplier="0.569801" id="tlE-gJ-A8X"/>
-                                <constraint firstItem="R1z-gi-klY" firstAttribute="width" secondItem="L6m-8q-b6B" secondAttribute="width" multiplier="0.501425" id="yEe-bB-JJT"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -78,6 +100,7 @@
         </view>
     </objects>
     <resources>
+        <image name="ferias" width="988" height="1364"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

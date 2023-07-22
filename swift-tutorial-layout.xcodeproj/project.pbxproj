@@ -60,17 +60,57 @@
 		3DB34CF52A64C0E100B2B3DE /* swift-tutorial-layout */ = {
 			isa = PBXGroup;
 			children = (
-				3DB34CF62A64C0E100B2B3DE /* AppDelegate.swift */,
-				3DB34CF82A64C0E100B2B3DE /* SceneDelegate.swift */,
-				3DB34CFA2A64C0E100B2B3DE /* ViewController.swift */,
-				3DB34CFC2A64C0E100B2B3DE /* Main.storyboard */,
+				3DB34D0E2A6B4EBF00B2B3DE /* AppDelegate */,
+				3DB34D0F2A6B4ED600B2B3DE /* Model */,
+				3DB34D102A6B4EF500B2B3DE /* View */,
+				3DB34D122A6B4F6200B2B3DE /* ViewModel */,
 				3DB34CFF2A64C0E300B2B3DE /* Assets.xcassets */,
 				3DB34D012A64C0E300B2B3DE /* LaunchScreen.storyboard */,
 				3DB34D042A64C0E300B2B3DE /* Info.plist */,
+			);
+			path = "swift-tutorial-layout";
+			sourceTree = "<group>";
+		};
+		3DB34D0E2A6B4EBF00B2B3DE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3DB34CF62A64C0E100B2B3DE /* AppDelegate.swift */,
+				3DB34CF82A64C0E100B2B3DE /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3DB34D0F2A6B4ED600B2B3DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DB34D102A6B4EF500B2B3DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DB34CFC2A64C0E100B2B3DE /* Main.storyboard */,
+				3DB34CFA2A64C0E100B2B3DE /* ViewController.swift */,
+				3DB34D112A6B4F2400B2B3DE /* Header */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DB34D112A6B4F2400B2B3DE /* Header */ = {
+			isa = PBXGroup;
+			children = (
 				3DB34D0A2A68C2DC00B2B3DE /* HomeTableViewHeader.xib */,
 				3DB34D0C2A68C65500B2B3DE /* HomeTableViewHeader.swift */,
 			);
-			path = "swift-tutorial-layout";
+			path = Header;
+			sourceTree = "<group>";
+		};
+		3DB34D122A6B4F6200B2B3DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
