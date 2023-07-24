@@ -15,17 +15,16 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9r-KJ-5tN" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                    <rect key="frame" x="-303.66666666666669" y="0.0" width="1000.3333333333335" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-Fj-fut">
-                            <rect key="frame" x="31" y="46" width="144" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-Fj-fut">
+                            <rect key="frame" x="325.33333333333337" y="48" width="143.66666666666663" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L6m-8q-b6B" userLabel="Banner 2 View">
-                            <rect key="frame" x="21" y="147" width="351" height="130"/>
+                            <rect key="frame" x="324.66666666666669" y="147" width="351.00000000000006" height="130"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V60-lF-2tJ">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
@@ -73,21 +72,21 @@
                     </subviews>
                     <color key="backgroundColor" red="0.11764705882352941" green="0.074509803921568626" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
+                        <constraint firstItem="Kke-Fj-fut" firstAttribute="top" secondItem="a9r-KJ-5tN" secondAttribute="top" constant="48" id="F7e-WG-Gsg"/>
                         <constraint firstAttribute="height" constant="250" id="LNT-b3-0GA"/>
                         <constraint firstAttribute="bottom" secondItem="L6m-8q-b6B" secondAttribute="bottom" constant="-27" id="amB-6U-USA"/>
+                        <constraint firstAttribute="width" constant="1000" id="mUm-Rl-bh5"/>
                     </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="a9r-KJ-5tN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="02o-BI-4yd"/>
                 <constraint firstItem="L6m-8q-b6B" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="21" id="2c9-Zi-q7E"/>
-                <constraint firstItem="a9r-KJ-5tN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="5a0-zX-DyF"/>
                 <constraint firstItem="a9r-KJ-5tN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BDO-HA-qkv"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="L6m-8q-b6B" secondAttribute="trailing" constant="21" id="Iky-nU-Db5"/>
-                <constraint firstItem="a9r-KJ-5tN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UeK-0c-Tua"/>
-                <constraint firstItem="a9r-KJ-5tN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="VL8-d0-MJ2"/>
-                <constraint firstItem="a9r-KJ-5tN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hcF-bp-cGw"/>
+                <constraint firstItem="Kke-Fj-fut" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="21.666666666666686" id="a2u-YA-C4P"/>
                 <constraint firstItem="a9r-KJ-5tN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tED-L0-C6a"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
