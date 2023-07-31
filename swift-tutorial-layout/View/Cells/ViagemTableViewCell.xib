@@ -119,7 +119,7 @@
                 <outlet property="statusCancelamentoViagemLabel" destination="8CF-BG-R4E" id="Bl5-ab-ErF"/>
                 <outlet property="subtituloViagemLabel" destination="r3H-fs-wl7" id="kQl-oD-6K1"/>
                 <outlet property="tituloViagemLabel" destination="ckp-ih-fXs" id="jQl-fV-VZq"/>
-                <outlet property="viagemImage" destination="5hu-pU-BPL" id="BVa-bw-qo8"/>
+                <outlet property="viagemImage" destination="tEM-7W-7AI" id="T3K-RL-lhX"/>
             </connections>
             <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
         </tableViewCell>
